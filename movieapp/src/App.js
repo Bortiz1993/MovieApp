@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import movieSpecter from "./images/movieSpecter.png"
 import {
   ReactiveBase,
   SearchBox,
@@ -26,7 +27,7 @@ class App extends Component {
   handleClick() {
     this.setState({
       isClicked: !this.state.isClicked,
-      message: this.state.isClicked ? "Show Filters" : "Show Movies",
+      message: this.state.isClicked ? "🔬Show Filters" : "🎥Show Movies",
     });
   }
 
@@ -34,8 +35,8 @@ class App extends Component {
   render() {
     return (
       <div className="main-container">
-        <div>Hello world</div>
         <ReactiveBase
+        //this is where the dataset for the  movies comes from and it uses appbase.io to search for backend.
           app="movies-demo-app"
           url="https://81719ecd9552:e06db001-a6d8-4cc2-bc43-9c15b1c0c987@appbase-demo-ansible-abxiydt-arc.searchbase.io"
           //stylings for the main container.
@@ -47,8 +48,9 @@ class App extends Component {
               fontSize: "16px",
             },
             colors: {
+              textColor: "#ff0000",
               backgroundColor: "#212121",
-              primaryTextColor: "#fff",
+              primaryTextColor: "#ff0000",
               primaryColor: "#2196F3",
               titleColor: "#fff",
               alertColor: "#d9534f",
@@ -61,12 +63,13 @@ class App extends Component {
             <div className="logo-container">
               <img
                 className="app-logo"
-                src="Images/logo.jpg"
+                src={movieSpecter}
                 alt="MovieSearch"
               />
             </div>
           {/* The search container and stylings */}
             <div className="search-container">
+            {/* the searchBox component creates the search bar UI */}
               <SearchBox
                 componentId="mainSearch"
                 dataField={["original_title", "original_title.search"]}
@@ -112,6 +115,7 @@ class App extends Component {
                   <i className="fa fa-pied-piper-alt" /> Genres{" "}
                 </b>
               </div>
+              {/* a genre-based filterable UI */}
               <MultiList
                 componentId="genres-list"
                 dataField="genres.keyword"
@@ -149,6 +153,7 @@ class App extends Component {
                   <i className="fa fa-star" /> Ratings
                 </b>
               </div>
+              {/* It is a UI widget for ratings-based filter */}
               <RangeSlider
                 componentId="RangeSlider"
                 dataField="vote_average"
@@ -182,7 +187,7 @@ class App extends Component {
                   <i className="fa fa-language" /> Languages{" "}
                 </b>
               </div>
-              {/* multiple languages list? */}
+              {/* multiple languages filter */}
               <MultiDataList
                 componentId="language-list"
                 dataField="original_language.keyword"
@@ -279,6 +284,7 @@ class App extends Component {
                   <i className="fa fa-calendar" /> Release Date{" "}
                 </b>
               </div>
+              {/* a filter for movie release dates */}
               <DateRange
                 componentId="date-filter"
                 dataField="release_date"
@@ -365,6 +371,7 @@ class App extends Component {
                         style={{ marginRight: "15px" }}
                         className="main-description"
                       >
+                      {/* this takes you to google to search for the movie */}
                         <div className="ih-item square effect6 top_to_bottom">
                           <a
                             target="#"
@@ -373,6 +380,7 @@ class App extends Component {
                               item.original_title
                             }
                           >
+                          {/* these are the movie posters */}
                             <div className="img">
                               <img
                                 src={item.poster_path}
@@ -441,7 +449,7 @@ class App extends Component {
                 )}
               </ReactiveList>
             </div>
-              {/* this button handles the original state of message?                */}
+              {/* this button handles the original state of message? */}
             <button
               className="toggle-button"
               onClick={this.handleClick.bind(this)}

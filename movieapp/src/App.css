@@ -1,3 +1,7 @@
+body{
+    background-color: #548c9c;
+}
+
 .main-container{
     margin: 0 10px;
 }
@@ -30,7 +34,7 @@ hr{
 /* styling for header */
 
 .navbar{
-    background-color: #333;
+    /* background-color: #333; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;

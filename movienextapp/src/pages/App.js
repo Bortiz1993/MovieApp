@@ -11,6 +11,9 @@ import {
   ReactiveList,
 } from "@appbaseio/reactivesearch";
 import "./App.css";
+import initReactivesearch from '@appbaseio/reactivesearch/lib/server';
+
+const initialState = await initReactivesearch();
 
 //initializing state, it contains a clicked boolean and a variable.
 class App extends Component {
@@ -35,7 +38,7 @@ class App extends Component {
   render() {
     return (
       <div className="main-container">
-        <ReactiveBase
+        <ReactiveBase {...props} initialState={initialState}
         //this is where the dataset for the  movies comes from and it uses appbase.io to search for backend.
           app="movies-demo-app"
           url="https://81719ecd9552:e06db001-a6d8-4cc2-bc43-9c15b1c0c987@appbase-demo-ansible-abxiydt-arc.searchbase.io"

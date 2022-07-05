@@ -1,3 +1,5 @@
+//this is a next.js app with react but it became a test application.
+
 import React, { Component } from "react";
 import movieSpecter from "./../static/images/movieSpecter.png"
 import {

@@ -196,10 +196,10 @@ hr{
 
 .rating-time-score-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  /* justify-content: flex-start; */
+  align-items: flex-start;
 }
 
 .vote-average-lang-container {
@@ -296,6 +296,9 @@ hr{
 }
 
 .overlay-info {
+  display: flex;
+  justify-content: space-between;
+  /* min-height: 300px; */
   position: absolute;
   background-color: #111111;
   bottom: 0;
@@ -458,7 +461,7 @@ hr{
   border: none;
   padding-bottom: 4px;
 }
-/* Responsive styling */
+/* Responsive styling  for mobile only*/
 @media (max-width: 768px) {
   .toggle-button {
     display: block;
@@ -522,8 +525,8 @@ hr{
 
   .app-logo {
     margin-top: 3px;
-    width: 207px;
-    height: 30px;
+    width: 199px;
+    height: 80px;
   }
   .input-addon {
     display: none !important;

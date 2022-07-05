@@ -1,3 +1,5 @@
+//this is the application being converted to next.js, it is working as well but its slower. This is my original first file.
+
 import React, { Component } from "react";
 import movieSpecter from "./images/movieSpecter.png"
 import {

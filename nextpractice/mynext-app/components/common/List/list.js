@@ -6,7 +6,7 @@ function ListComponent() {
   return (
     <ReactiveList
       defaultQuery={() => ({ track_total_hits: true })}
-      key= "key"
+      // key= "key"
       componentId="results"
       // dataField={[
       //   { field: "original_title", weight: 3 },
@@ -67,8 +67,8 @@ function ListComponent() {
       {({ data }) => (
         <ReactiveList.ResultCardsWrapper style={{ margin: "8px 0 0" }}>
           {data.map((item) => (
-            <div key={id} style={{ marginRight: "15px" }} className="main-description">
-              {/* this takes you to google to search for the movie */}
+            <div style={{ marginRight: "15px" }} className="main-description">
+      
               <div className="ih-item square effect6 top_to_bottom">
                 <a
                   target="#"

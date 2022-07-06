@@ -8,7 +8,8 @@ import {
 	MultiList,
 	SelectedFilters
   } from "@appbaseio/reactivesearch";
-
+  
+  
 function MainComponent(props) {    
 	//all filter components are inside the sub-container. The button here switches from filters to movies and back.
 	return (        

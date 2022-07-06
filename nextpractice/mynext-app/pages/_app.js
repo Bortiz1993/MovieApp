@@ -1,21 +1,17 @@
 import "../styles/globals.css";
 import React, { Component } from "react";
 
-// function MyApp({ Component, pageProps }) {
-//   return <div>
-//     <h1>hello world</h1>
-//     <img src='/images/movieSpecter.png'></img>
-//   </div>
-// }
-
-//this is where i left off and this is the real app, GS also commented the function app.
+//TODO try to find out how to fix the bad hydration problem?
+//this is the real app, GS also commented the function app.
 import {
   ReactiveBase
 } from "@appbaseio/reactivesearch";
 import HeaderComponent from "../components/common/Header/header";
 import MainComponent from "../components/common/Main/main";
 
+
 //initializing state, it contains a clicked boolean and a variable.
+
 class MyApp extends Component {
   constructor(props) {
     super(props);

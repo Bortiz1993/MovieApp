@@ -10,11 +10,10 @@ import {
   } from "@appbaseio/reactivesearch";
 
 function MainComponent(props) {    
-	//all filter components are inside the sub-container.
+	//all filter components are inside the sub-container. The button here switches from filters to movies and back.
 	return (        
 		<div className="sub-container">
-		<div
-		  className={
+		<div className={
 			props.isClicked ? "left-bar-optional" : "left-bar"
 		  }
 		>
@@ -160,12 +159,13 @@ function MainComponent(props) {
 		  
 		</div>
 		{/* this button handles the original state of message? */}
-		{/* <button
+		<button
 		  className="toggle-button"
-		  onClick={this.handleClick.bind(this)}
+		  onClick={()=> props.handleClick()}
+		  
 		>
-		  {this.state.message}
-		</button> */}
+		{props.message}
+		</button>
 	  </div> 
 	)
 }

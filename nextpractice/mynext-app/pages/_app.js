@@ -26,8 +26,8 @@ class MyApp extends Component {
     };
   }
 
-  //this click function handles both the filters and the movies search. TODO figure what this is for
-  handleClick() {
+  //this click function handles both the filters and the movies search. TODO I found out what it is for, it is for the responsive versions of the app.
+  handleClick =() => {
     this.setState({
       isClicked: !this.state.isClicked,
       //pass the handleclick function, this.state.message prop to the main component TODO
@@ -64,7 +64,7 @@ class MyApp extends Component {
           }}
         >  
       <HeaderComponent></HeaderComponent>
-      <MainComponent isClicked={this.state.isClicked}></MainComponent> 
+      <MainComponent handleClick={this.handleClick} isClicked={this.state.isClicked} message={this.state.message}></MainComponent> 
         </ReactiveBase>
       </div>
     );

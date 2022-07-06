@@ -6,11 +6,13 @@ function ListComponent() {
   return (
     <ReactiveList
       defaultQuery={() => ({ track_total_hits: true })}
+      key= "key"
       componentId="results"
-      dataField={[
-        { field: "original_title", weight: 1 },
-        { field: "original_title.search", weight: 2 },
-      ]}
+      // dataField={[
+      //   { field: "original_title", weight: 3 },
+      //   { field: "original_title.search", weight: 2 },
+      // ]}
+      dataField="original_title"
       react={{
         and: [
           "mainSearch",
@@ -65,7 +67,7 @@ function ListComponent() {
       {({ data }) => (
         <ReactiveList.ResultCardsWrapper style={{ margin: "8px 0 0" }}>
           {data.map((item) => (
-            <div style={{ marginRight: "15px" }} className="main-description">
+            <div key={id} style={{ marginRight: "15px" }} className="main-description">
               {/* this takes you to google to search for the movie */}
               <div className="ih-item square effect6 top_to_bottom">
                 <a
@@ -76,7 +78,7 @@ function ListComponent() {
                 >
                   {/* these are the movie posters */}
                   <div className="img">
-                    <img
+                    <image
                       src={item.poster_path}
                       alt={item.original_title}
                       className="result-image"

@@ -525,7 +525,7 @@ hr{
 
   .app-logo {
     margin-top: 3px;
-    width: 199px;
+    width: auto;
     height: 80px;
   }
   .input-addon {

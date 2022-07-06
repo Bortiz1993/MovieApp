@@ -6,7 +6,7 @@ function HeaderComponent() {
   return (
     <div className="navbar">
       <div className="logo-container">
-        <img
+        <image
           className="app-logo"
           src="/images/movieSpecter.png"
           alt="MovieSearch"

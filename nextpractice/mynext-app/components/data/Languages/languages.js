@@ -1,6 +1,5 @@
 //language data for the
-
-export default [
+ const  languages = [
     {
       label: "English",
       value: "en",
@@ -58,3 +57,5 @@ export default [
       value: "de",
     },
   ]
+
+  export default languages;

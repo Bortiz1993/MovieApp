@@ -1,7 +1,7 @@
 import {
   ReactiveList
 } from "@appbaseio/reactivesearch";
-import {Image} from "next/image";
+// import {Image} from "next/image";
 
 function ListComponent() {
   return (
@@ -79,14 +79,14 @@ function ListComponent() {
                 >
                   {/* these are the movie posters */}
                   <div className="img">
-                    <Image
+                    {/* <Image
                       width = "100%"
                       height = "100%"
                       layout = "raw"
                       src={item.poster_path}
                       alt={item.original_title}
                       className="result-image"
-                    />
+                    /> */}
                   </div>
                   <div className="info colored">
                     <h3 className="overlay-title">{item.original_title}</h3>

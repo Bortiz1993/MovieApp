@@ -1,6 +1,7 @@
 import {
   ReactiveList
 } from "@appbaseio/reactivesearch";
+import {Image} from "next/image";
 
 function ListComponent() {
   return (
@@ -67,7 +68,7 @@ function ListComponent() {
       {({ data }) => (
         <ReactiveList.ResultCardsWrapper style={{ margin: "8px 0 0" }}>
           {data.map((item) => (
-            <div style={{ marginRight: "15px" }} className="main-description">
+            <div key={item} style={{ marginRight: "15px" }} className="main-description">
       
               <div className="ih-item square effect6 top_to_bottom">
                 <a
@@ -78,7 +79,10 @@ function ListComponent() {
                 >
                   {/* these are the movie posters */}
                   <div className="img">
-                    <img
+                    <Image
+                      width = "100%"
+                      height = "100%"
+                      layout = "raw"
                       src={item.poster_path}
                       alt={item.original_title}
                       className="result-image"

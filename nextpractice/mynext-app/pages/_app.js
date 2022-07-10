@@ -1,7 +1,7 @@
 import "../styles/globals.css";
 import React, { Component } from "react";
+// import ErrorBoundary from "../components/common/ErrorB/errorboundary";
 
-//TODO try to find out how to fix the bad hydration problem?
 //this is the real app, GS also commented the function app.
 import {
   ReactiveBase
@@ -38,6 +38,7 @@ class MyApp extends Component {
         <ReactiveBase
           //  initialState={initialState}
           //this is where the dataset for the  movies comes from and it uses appbase.io to search for backend.
+          
           app="movies-demo-app"
           url="https://81719ecd9552:e06db001-a6d8-4cc2-bc43-9c15b1c0c987@appbase-demo-ansible-abxiydt-arc.searchbase.io"
           //stylings for the main container.
@@ -59,6 +60,7 @@ class MyApp extends Component {
             },
           }}
         >  
+        
       <HeaderComponent></HeaderComponent>
       <MainComponent handleClick={this.handleClick} isClicked={this.state.isClicked} message={this.state.message}></MainComponent> 
         </ReactiveBase>

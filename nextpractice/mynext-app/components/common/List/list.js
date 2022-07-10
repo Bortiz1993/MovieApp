@@ -78,7 +78,7 @@ function ListComponent() {
                 >
                   {/* these are the movie posters */}
                   <div className="img">
-                    <image
+                    <img
                       src={item.poster_path}
                       alt={item.original_title}
                       className="result-image"

@@ -1,12 +1,14 @@
 import { SearchBox } from "@appbaseio/reactivesearch";
 
+// hydration can be an html element problem, the Image tag was the problem.
+
 function HeaderComponent() {
   /* this is the navbar and logo */
 
   return (
     <div className="navbar">
       <div className="logo-container">
-        <image
+        <img
           className="app-logo"
           src="/images/movieSpecter.png"
           alt="MovieSearch"

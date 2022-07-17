@@ -70,8 +70,8 @@ function ListComponent() {
        
         <ReactiveList.ResultCardsWrapper style={{ margin: "8px 0 0" }}>
         
-          {data.map((item) => (
-            <div key={item} style={{ marginRight: "15px" }} className="main-description">
+          {data.map((item, i) => (
+            <div key={i} style={{ marginRight: "15px" }} className="main-description">
           
       
               <div className="ih-item square effect6 top_to_bottom">

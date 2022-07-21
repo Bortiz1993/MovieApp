@@ -1,3 +1,18 @@
+# Next.JS Movie Search App.
+![visitors](https://visitor-badge.glitch.me/badge?page_id=Bortiz1993.id)
+[![LinkeIn](https://img.shields.io/badge/LinkedIn-brijido--zuniga--849981211%2F-blue)]
+(https://www.linkedin.com/in/brijido-zuniga-849981211/)
+
+### Description
+Welcome fellow Developers, this is where you will find information about this Movie Search app.
+I apreciate any feedback and if anyone wants to contribute, that is fine as well. My goal is to eventually turn this into a streaming service.
+
+Movie Search App
+[![Netlify Status](https://api.netlify.com/api/v1/badges/974dbc81-0352-4a1e-9884-7835fcf83157/deploy-status)](https://app.netlify.com/sites/strong-nasturtium-0246a0/deploys)
+
+Search for almost any movie that you want to, click on the movie, get information about ratings, release dates, trivia, etc. Deployed with Netlify.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

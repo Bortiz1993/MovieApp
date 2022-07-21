@@ -41,11 +41,6 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ### Links
 [Repo](https://github.com/Bortiz1993/MovieApp)
@@ -53,3 +48,133 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 [Live](https://moviespecternext.netlify.app/)
 
 [Report Bugs](https://github.com/Bortiz1993/MovieApp/issues)
+
+### Screenshots
+![Movie App](https://user-images.githubusercontent.com/77209112/180127631-7341177b-d109-4c64-9643-7033de3f911a.png)
+
+##### Tablet Version.
+![Tablet version](https://user-images.githubusercontent.com/77209112/180128556-2066ecb7-d23e-4a8b-a83f-111df86f494f.png)
+
+##### Mobile Version.
+![movieMobile](https://user-images.githubusercontent.com/77209112/180131241-e8e16dd8-4ab7-4bff-97be-dd10052d6927.png)
+
+## Avaliable Commands
+
+This app was built using:
+
+### `"npx create-next-app"`,
+##### `"or you can"`,
+### `"yarn create next-app"`,
+
+You can also create a TypeScript project:
+
+### `"npx create-next-app@latest --ts"`,
+##### `"or you can"`,
+### `"yarn create next-app --typescript"`,
+
+To start the app use:
+
+### `"npm run dev"`
+
+To run the build use:
+
+### `"npm run build"`
+
+## Build with:
+
+- React Version "^16.2.0"
+- Next.JS
+- JavaScript
+- Node.JS
+- NPM
+- HTML
+- CSS
+- React-Router-DOM
+- Material UI for styling
+- React-mdl for styling
+- Open-Source ReactiveSearch Library --BUILDS UI COMPONENTS
+- Elasticsearch for UI --IMPORTER
+- dejavu --TO VIEW DATA
+- Mirage --ELASTICSEARCH QUERIE BUILDER
+- Appbase.io --NO-CODE TO IMPORT DATA INTO SEARCH INDEX
+- Searchbox UI component library
+- Kaggle --Movie Dataset
+
+## Deployment:
+
+## Deployed on Netlify
+
+The easiest way to deploy this app in Netlify is to use the command npm run build, save the changes, go to netlify Deploys, go to file explorer, drop the build folder in the Deploy page and then the application will be deployed. You must create the website and give it a domain first.
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Future Updates
+
+- [ ] Find websites with better information about the movies besides Wikipedia.
+- [ ] After user clicks on the movie poster, the movie will start to stream.
+- [ ] Make this app similar to Youtube.
+- [ ] There might be some hiden bugs in the app, FIX.
+
+## Resources/Help from other Developers.
+
+[Movie App React and ElasticSearch Tutorial](https://medium.appbase.io/how-to-build-a-movie-search-app-with-react-and-elasticsearch-2470f202291c)
+
+[Movie App with Next.js and ReactiveSearch Tutorial](https://blog.reactivesearch.io/react-search-ui-tutorial)
+
+[Searchbox](https://opensource.appbase.io/searchbox/)
+
+[Appbase.io/OpenSearch](https://docs.appbase.io/)
+
+[Importer Appbase.io](https://importer.appbase.io/)
+
+[Dejavu](https://dejavu.appbase.io/?appname=&url=&mode=edit)
+
+[ReactiveSearch](https://opensource.appbase.io/reactivesearch/)
+
+[Next.js Tutorials](https://nextjs.org/learn/basics/create-nextjs-app)
+
+[Stackoverflow](https://stackoverflow.com/)
+
+[Developer Mozilla](https://developer.mozilla.org/)
+
+## Special Thanks to
+
+- GM: Helped me with the whole app, the functunality, better ideas, and the bugs(Special Thanks).
+- J: Helped a little with the app, blurry images.
+- Muhammad Ashraf: Author of the Movie Search with ReativeSearch Next.js.
+- Raj Meghpara: Author of the Movie Search With React and ElasticSearch Next.js.
+
+## Author
+
+**Brijido Ortiz Zuniga**
+
+**Alias: Shooting Riser, X, Yusei Fudo, Stardust Warrior, Cosmic Flare**
+
+- [Profile](https://github.com/Bortiz1993)
+- [Email](Bortiz4ever@gmail.com)
+- [Portfolio Website](https://bortiz-portfolio.netlify.app/)
+
+## Support
+
+Contributions, issues, and new ideas are welcome!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

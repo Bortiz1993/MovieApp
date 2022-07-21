@@ -1,7 +1,6 @@
 # Next.JS Movie Search App.
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=Bortiz1993.id)
-[![LinkeIn](https://img.shields.io/badge/LinkedIn-brijido--zuniga--849981211%2F-blue)]
-(https://www.linkedin.com/in/brijido-zuniga-849981211/)
+[![LinkeIn](https://img.shields.io/badge/LinkedIn-brijido--zuniga--849981211%2F-blue)](https://www.linkedin.com/in/brijido-zuniga-849981211/)
 
 ### Description
 Welcome fellow Developers, this is where you will find information about this Movie Search app.

@@ -16,7 +16,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+###### [The first is not the development server, but the npm install command. ]
+###### First, run the development server:
 
 ```bash
 npm run dev
@@ -26,11 +27,11 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+###### [You do NOT want them to edit your files... unless they fork their own version of the repo ]You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+###### [You did not configure any api routes, so you should remove pointing it out][API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+###### [part of previous line] The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
 ## Learn More
 
@@ -39,11 +40,11 @@ To learn more about Next.js, take a look at the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+###### [you do not want to encourage them to do feedback and contributions in the next.js repo, because it is not your repo]You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 
 ### Links
-[Repo](https://github.com/Bortiz1993/MovieApp)
+###### [HERE is where do want to encourage them to leave feedback and contributions ] [Repo](https://github.com/Bortiz1993/MovieApp)
 
 [Live](https://moviespecternext.netlify.app/)
 
@@ -60,17 +61,17 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Avaliable Commands
 
-This app was built using:
+###### [you need to remove this section from 64-74 - notice that changes prior to this line will move the content over to other lines] This app was built using:
 
-### `"npx create-next-app"`,
-##### `"or you can"`,
-### `"yarn create next-app"`,
+###### `"npx create-next-app"`,
+######  `"or you can"`,
+######  `"yarn create next-app"`,
 
-You can also create a TypeScript project:
+###### You can also create a TypeScript project:
 
-### `"npx create-next-app@latest --ts"`,
-##### `"or you can"`,
-### `"yarn create next-app --typescript"`,
+###### `"npx create-next-app@latest --ts"`,
+###### `"or you can"`,
+###### `"yarn create next-app --typescript"`,
 
 To start the app use:
 
@@ -106,11 +107,11 @@ To run the build use:
 
 The easiest way to deploy this app in Netlify is to use the command npm run build, save the changes, go to netlify Deploys, go to file explorer, drop the build folder in the Deploy page and then the application will be deployed. You must create the website and give it a domain first.
 
-### Deploy on Vercel
+###### [remove this section] Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+###### The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+###### Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## Future Updates
 

@@ -143,7 +143,7 @@ Contributions, issues, and new ideas are welcome!
 
 - [Profile](https://github.com/Bortiz1993)
 - [Email](Bortiz4ever@gmail.com)
-- [Portfolio Website](https://bortiz-portfolio.netlify.app/)
+- [Portfolio Website](https://62da461e8c724353d4e0df46--bortiz-portfolio.netlify.app/)
 
 
 

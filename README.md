@@ -14,49 +14,7 @@ Search for almost any movie that you want to, click on the movie, get informatio
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-
-### Links
-[Repo](https://github.com/Bortiz1993/MovieApp)
-
-[Live](https://moviespecternext.netlify.app/)
-
-[Report Bugs](https://github.com/Bortiz1993/MovieApp/issues)
-
-### Screenshots
-![Movie App](https://user-images.githubusercontent.com/77209112/180127631-7341177b-d109-4c64-9643-7033de3f911a.png)
-
-##### Tablet Version.
-![Tablet version](https://user-images.githubusercontent.com/77209112/180128556-2066ecb7-d23e-4a8b-a83f-111df86f494f.png)
-
-##### Mobile Version.
-![movieMobile](https://user-images.githubusercontent.com/77209112/180131241-e8e16dd8-4ab7-4bff-97be-dd10052d6927.png)
+### Getting Started
 
 ## Avaliable Commands
 
@@ -80,6 +38,43 @@ To run the build use:
 
 ### `"npm run build"`
 
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+## Support
+
+Contributions, issues, and new ideas are welcome!
+
+### Links
+[Repo](https://github.com/Bortiz1993/MovieApp)
+
+[Live](https://moviespecternext.netlify.app/)
+
+[Report Bugs](https://github.com/Bortiz1993/MovieApp/issues)
+
+### Screenshots
+![Movie App](https://user-images.githubusercontent.com/77209112/180127631-7341177b-d109-4c64-9643-7033de3f911a.png)
+
+##### Tablet Version.
+![Tablet version](https://user-images.githubusercontent.com/77209112/180128556-2066ecb7-d23e-4a8b-a83f-111df86f494f.png)
+
+##### Mobile Version.
+![movieMobile](https://user-images.githubusercontent.com/77209112/180131241-e8e16dd8-4ab7-4bff-97be-dd10052d6927.png)
+
 ## Build with:
 
 - React Version "^16.2.0"
@@ -102,15 +97,7 @@ To run the build use:
 
 ## Deployment:
 
-### Deploy on Netlify
-
-The easiest way to deploy this app in Netlify is to use the command npm run build, save the changes, go to netlify Deploys, go to file explorer, drop the build folder in the Deploy page and then the application will be deployed. You must create the website and give it a domain first.
-
-### Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+####  This app was Deployed on Netlify.
 
 ## Future Updates
 
@@ -158,9 +145,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [Email](Bortiz4ever@gmail.com)
 - [Portfolio Website](https://bortiz-portfolio.netlify.app/)
 
-## Support
-
-Contributions, issues, and new ideas are welcome!
 
 
 

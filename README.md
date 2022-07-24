@@ -22,7 +22,9 @@ This app was built using:
 
 To start the app use:
 
-### `"npm install"`
+```
+ `"npm install"`
+ ```
 
 Second, run the development server:
 

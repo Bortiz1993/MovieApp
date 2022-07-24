@@ -20,27 +20,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 This app was built using:
 
-### `"npx create-next-app"`,
-##### `"or you can"`,
-### `"yarn create next-app"`,
-
-You can also create a TypeScript project:
-
-### `"npx create-next-app@latest --ts"`,
-##### `"or you can"`,
-### `"yarn create next-app --typescript"`,
-
 To start the app use:
 
-### `"npm run dev"`
+### `"npm install"`
 
-To run the build use:
+Second, run the development server:
 
-### `"npm run build"`
-
-First, run the development server:
-
-```bash
+```
 npm run dev
 # or
 yarn dev
